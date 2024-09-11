@@ -52,4 +52,4 @@ jobs:
           app-name: 'tugofwarunai'
           slot-name: 'Production'
           package: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_80EF387697A84F3CBC9B0780F0311A79 }}
+          # publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_80EF387697A84F3CBC9B0780F0311A79 }}
