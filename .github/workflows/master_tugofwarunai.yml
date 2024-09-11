@@ -3,6 +3,10 @@
 
 name: Build and deploy Node.js project to Azure Function App - tugofwarunai
 
+permissions:
+  id-token: write
+  contents: read
+  
 on:
   push:
     branches:
